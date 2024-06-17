@@ -9,9 +9,6 @@ import { Provider } from 'react-redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-
-        {/* store.js Dosyasinda Yapilan Islemleri
-            Provider Component Icine Alarak Gosteriyoruz */}
         <Provider store={store}>
             <App />
         </Provider>
